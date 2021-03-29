@@ -4,7 +4,7 @@ public class ClassSmartphone {
 	
 	String brand [] = {"Apple", "Samsung", "Huawei"};
 	String color [] = {"Pacific blue", "Mirror purple", "Mystic silver"};
-	String model [] = {"iPhone 12 Pro Max", "Samsung Galazy z Flip", "Huawei Mate 40 Pro"};
+	String model [] = {"iPhone 12 Pro Max", "Samsung Galazy Z Flip", "Huawei Mate 40 Pro"};
 	double screenSize [] = {6.7, 6.7, 6.76};
 	
 	void phone1() {
