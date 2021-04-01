@@ -19,7 +19,7 @@ public class MainSmartphoneANDMultiCooker {
 		Smartphone Samsung = new Smartphone();
 		System.out.println("2. Brand\t\t: " + Samsung.brand[1] +
 							"\n   Model\t\t: " + Samsung.model[1] +
-							"\n   Color\t\t   : " + Samsung.color[1] +
+							"\n   Color\t\t: " + Samsung.color[1] +
 							"\n   Screen size (inch)\t: " + Samsung.screenSize[1]);
 		
 		System.out.println();
