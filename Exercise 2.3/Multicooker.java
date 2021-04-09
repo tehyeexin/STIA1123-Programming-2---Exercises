@@ -75,7 +75,7 @@ public class Multicooker {
 	void waterHeatingTime() {
 		System.out.println("4. WATER HEATING TIME");
 		System.out.println("You can check the water heating time."
-							+ "\nPlease enter the following details to continue."
+							+ "\nPlease enter the following details to proceed."
 							+ "\n- Volume (litres) \n- Energy (watts) \n- Start temperature (degree celcius) "
 							+ "\n- End temperature (degree celcius) \n- Efficiency (%)");
 		int volume = s.nextInt();
