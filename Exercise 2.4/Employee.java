@@ -12,15 +12,15 @@ public class Employee {
 
 	// Create Setter Method
 	  public void setName(String name) {
-	    this.name = name;
+		  this.name = name;
 	  }
 	  
 	  public void setAge(int age) {
-		    this.age = age;
+		  this.age = age;
 	  }
 	  
 	  public void setID(int ID) {
-	    this.ID = ID;
+		  this.ID = ID;
 	  }
 	  
 	  public void setGender(char gender) {
@@ -28,11 +28,11 @@ public class Employee {
 	  }
 	  
 	  public void setDepartment(String department) {
-		    this.department = department;
+		  this.department = department;
 	  }
 	  
 	  public void setPosition(String position) {
-		    this.position = position;
+		  this.position = position;
 	  }
 	  
 	  public void setSalary(double salary) {
