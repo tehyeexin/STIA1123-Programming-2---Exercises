@@ -1,14 +1,9 @@
 package Exercise3_2;
 
-import java.util.Scanner;
-
 public class Panda extends Bear {
-	
-	Scanner s = new Scanner(System.in);
 	
 	private double weightMale;
 	private double weightFemale;
-	private double eatPerDay;
 	
 	Panda(String b, String c, String g, String p, double wm, double wf) {
 		super(b, c, g, p);
