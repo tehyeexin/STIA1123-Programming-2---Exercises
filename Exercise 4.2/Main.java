@@ -9,10 +9,10 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Apple a = new Apple("Apple", 2 ,3);
-		Grape g = new Grape("Grape", 4, 5);
-		Watermelon w = new Watermelon("Watermelon", 6, 7);
-		RedApple redA = new RedApple("Fuji", 8, 9, "Red", "Sweet", 0.54, 100);
+		Apple a = new Apple("Apple", 2 ,5);
+		Grape g = new Grape("Grape", 0.67, 100);
+		Watermelon w = new Watermelon("Watermelon", 0.0755, 100);
+		RedApple redA = new RedApple("Fuji", 3, 7, "Red", "Sweet", 0.54, 100);
 		GreenApple greenA = new GreenApple("Granny Smith", 3, 6, "Green", "Sour", 70);
 		
 		System.out.println("\n---------- APPLE -----------\n" + a + a.toString1());
