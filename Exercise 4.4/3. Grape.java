@@ -15,7 +15,7 @@ public class Grape extends Fruit{
 			double redCal = 0.65; //per 1g
 			double greenCal = 0.615; //per 1g
 			System.out.println("Name : " + name);
-			System.out.println("Type : " + type);
+			System.out.println("Type : " + t);
 			System.out.println("Red Grapes   : " + totalCalories(redCal, g) + " cal per " + g + "g"
 								+ "\nGreen Grapes : " + totalCalories(greenCal, g) + " cal per " + g + "g");
 		break;
@@ -24,7 +24,7 @@ public class Grape extends Fruit{
 			double redCal1 = 0.738; //per 1g
 			double greenCal1 = 0.66; //per 1g
 			System.out.println("Name : " + name);
-			System.out.println("Type : " + type);
+			System.out.println("Type : " + t);
 			System.out.println("Red Grapes   : " + totalCalories(redCal1, g) + " cal per " + g + "g"
 								+ "\nGreen Grapes : " + totalCalories(greenCal1, g) + " cal per " + g + "g");
 		break;
@@ -35,11 +35,11 @@ public class Grape extends Fruit{
 		return 0;
 	}
 	
-	public double totalCalories(int grams) { 
+	public double totalCalories(int g) { 
 		return this.grams;
 	}
 	
-	public double totalCalories(double cal, int grams) { 
+	public double totalCalories(double cal, int g) { 
 		return cal * this.grams;
 	}
 	
